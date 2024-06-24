@@ -1,6 +1,6 @@
+type UserShape= {name:string; age:number;isStudent:boolean}
 
-
-const User = ({name,age,isStudent}:{name:string; age:number;isStudent:boolean}) => {
+const User = ({name,age,isStudent}:UserShape) => {
   return (
     <div>
         <h1>{name}</h1>
