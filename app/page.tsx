@@ -1,11 +1,12 @@
 import AdminInfo from "@/components/AdminInfo";
 import Counter from "@/components/Counter";
+import Form from "@/components/Form";
 import User from "@/components/User";
 import UserInfo from "@/components/UserInfo";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <User name="dhruvi" age={2} isStudent={false} />
       <UserInfo
         username="alex"
@@ -19,6 +20,7 @@ export default function Home() {
         location={["earth", "germany"]}
         admin="yes"/>
         <Counter />
-    </div>
+        <Form />
+    </>
   );
 }
