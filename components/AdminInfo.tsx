@@ -5,7 +5,7 @@ type Info = {
     email: string;
     age:number;
     location:string[];
-    admin:boolean;
+    admin:string;
   }
 const AdminInfo = ({username,email,age,location,admin}:Info) => {
   return (
@@ -15,6 +15,7 @@ const AdminInfo = ({username,email,age,location,admin}:Info) => {
         <li>{email}</li>
         <li>{age}</li>
         <li>{JSON.stringify(location)}</li>
+        <li>{admin}</li>
       </ul>
     </div>
   )

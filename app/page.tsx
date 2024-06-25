@@ -1,4 +1,5 @@
 import AdminInfo from "@/components/AdminInfo";
+import Counter from "@/components/Counter";
 import User from "@/components/User";
 import UserInfo from "@/components/UserInfo";
 
@@ -17,6 +18,7 @@ export default function Home() {
         age={20}
         location={["earth", "germany"]}
         admin="yes"/>
+        <Counter />
     </div>
   );
 }

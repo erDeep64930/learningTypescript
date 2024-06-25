@@ -1,6 +1,6 @@
 import React from 'react'
 
-type Info = {
+export type Info = {
   username: string;
   email: string;
   age:number;
